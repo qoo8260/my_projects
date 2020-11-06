@@ -60,6 +60,7 @@ Lat, Lng을 이용해서 만들었기때문에 일본, 미국 등 다른 나라�
 [4] FunCook
  >FunCook은 restful API를 이용해서 flickr API를 이용해서 아시안 음식사진을 가져와서 food AI API로 음식사진을 인식해서 음식의 이름을 따내서 edamam API를 이용해서 연관된 레시피를 검색해서 일상 생활 음식에 질린 서양인들이 새로운 음식을 경험할 수 있게 도와주는 웹어플리케이션입니다. 이 웹어플리케이션의 조금 특별한 점이 있다면 만약에 유저가 두개 이상의 이름을 가진 음식을 찾을때 (Keropok, Krupuk - 인도네시아 음식), Keropok라고 레시피를 찾았는데 검색결과가 없으면 Wikipedia API를 이용해서 제일 연관된 컨텐츠의 (Krupuk) 이름을 찾아서 다시 검색을 해줍니다. 
 데모 영상: https://www.youtube.com/watch?v=hC_E5ZqqCfE
+
 [5] Twiffy
 >Twiffy는 Data Science의 기초라고 할수있는 Twitter Sentiment Analysis입니다. 예를 들어 트럼프를 검색하면 실시간으로 트럼프의 대한 댓글들을 통해서 얼마나 많은 사람들이 좋아하는지 아님 싫어하는지를 파이차트와 라인그래프를 이용해서 유저에게 쉽게 알려줍니다. 기존의 다른 아주 많은 Twitter Sentiment Analysis와 다른 점이있다면:
 Flexibility - 웹소켓을 자유자재로 일시정지시키고 다시 시작할수있고 굳이 페이지를 다시 리프레시하지 않아도 새로운 검색을 할수있습니다.
