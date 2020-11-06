@@ -43,30 +43,30 @@ python web scraping (BeautifulSoup)를 이용한 연관된 화장품 이름, 가
 
 [1] PHP (Restful API)
 >Capstone project로 진행한 과제입니다. 저희 팀의 클라이언트가 도자기 공방을 하고 사람들을 가르치는 일을하시는데, 제가 맡은 임무는 Customer Booking Integration으로 (클라이언트의) 고객이 Occasion 이라는 다른 외부 웹사이트 API를 통해서 결제를하고 테이블을 부킹하면 Wordpress로 운영된 저희 고객사이트에 가입이 되어있지않으면 가입을 시키고 Vend라는 매출관리하는 사이트에 고객 정보를 입력하고 주문번호를 입력해서 클라이언트가 한 달에 얼마나 벌었는지 어떤 고객이 제일 많이 소비를 했는지를 알려줍니다.    
-데모 영상: https://www.youtube.com/watch?v=sN0Y4nAWcyM
-클라이언트 사이트: https://colourmypot.com/ 
+[데모 영상 보기]( https://www.youtube.com/watch?v=sN0Y4nAWcyM)
+
 
 [2] Blockchain - Language/IDE/Server: Solidity/Remix/Ganache Cli. 
 >이더리움을 이용한 블록체인은 개인적으로 제가 최근에 관심을 가지게된 분야입니다. 방학때 유튜브로 영상만 찾아보다가 저도 직접 한 번 만들어보고 싶어서 stackoverflow랑 각종 references 등을 보고 solidity, web3.js, Ganache Cli를 이용해서 Dapp_ex1이랑 Dapp_ex2를 저 혼자만의 색깔로 만들었습니다. Dapp_ex1은 부동산 거래내역등을 기록할때 함부로 누가 바꾸지 못하도록 블록체인이 적용되었으면 하는 바람에 만들었고 Dapp_ex2는 오는 2021년은 굳이 밖에 나가지않고 집에서 대통령 선거를 하는 마음에 만들었습니다. ERC20는 실제로 Main Ethereum Network에는 발행하지못했지만 Rinkeby testnet에 발행해봤습니다. 
-데모 영상: https://www.youtube.com/watch?v=r791oYxf3dg
+[데모 영상 보기]( https://www.youtube.com/watch?v=r791oYxf3dg)
 
 [3] Java - Framework/IDE/Server: Spring Framework/Eclipse EE Oxygen/Apache Tomcat 9. 
 >이 프로젝트는 서울에 집값이 비싸서 주머니 사정이 안좋은 사람들을 위해서 쉐어메이트를 찾게만들어주면 좋을것같아서 방학때 혼자 독학으로 만든 웹어플리케이션입니다. 물론 학교에서 자바를 가르쳐주기는 했지만, 프레임워크에 대해서는 전혀 가르쳐주지않아서 혼자 독학으로 Spring Framework랑 JSP 등을 공부해서 MyBatis로 MySQL을 매핑시킨 웹어플리케이션입니다. 기존의 다른 쉐어메이트 사이트의 차별화를 둔 부분은: 
 유저가 거리 범위에 따라서 필터링을 할 수 있습니다. (예를 들어 5km 범위내의 서울특별시 이태원)
 구글맵을 통해서 하우스의 위치 확인을 하고 원하면 자세한 정보를 볼수있습니다 (가격순 거리순으로도 정렬 및 확인 가능함). 
 Lat, Lng을 이용해서 만들었기때문에 일본, 미국 등 다른 나라도 쉐어메이트를 찾을수있게 만들었습니다.
-데모 영상: https://www.youtube.com/watch?v=FmyxsrNaN50
+[데모 영상 보기]( https://www.youtube.com/watch?v=FmyxsrNaN50)
 
 [4] FunCook
  >FunCook은 restful API를 이용해서 flickr API를 이용해서 아시안 음식사진을 가져와서 food AI API로 음식사진을 인식해서 음식의 이름을 따내서 edamam API를 이용해서 연관된 레시피를 검색해서 일상 생활 음식에 질린 서양인들이 새로운 음식을 경험할 수 있게 도와주는 웹어플리케이션입니다. 이 웹어플리케이션의 조금 특별한 점이 있다면 만약에 유저가 두개 이상의 이름을 가진 음식을 찾을때 (Keropok, Krupuk - 인도네시아 음식), Keropok라고 레시피를 찾았는데 검색결과가 없으면 Wikipedia API를 이용해서 제일 연관된 컨텐츠의 (Krupuk) 이름을 찾아서 다시 검색을 해줍니다. 
-데모 영상: https://www.youtube.com/watch?v=hC_E5ZqqCfE
+[데모 영상 보기] (https://www.youtube.com/watch?v=hC_E5ZqqCfE)
 
 [5] Twiffy
 >Twiffy는 Data Science의 기초라고 할수있는 Twitter Sentiment Analysis입니다. 예를 들어 트럼프를 검색하면 실시간으로 트럼프의 대한 댓글들을 통해서 얼마나 많은 사람들이 좋아하는지 아님 싫어하는지를 파이차트와 라인그래프를 이용해서 유저에게 쉽게 알려줍니다. 기존의 다른 아주 많은 Twitter Sentiment Analysis와 다른 점이있다면:
 Flexibility - 웹소켓을 자유자재로 일시정지시키고 다시 시작할수있고 굳이 페이지를 다시 리프레시하지 않아도 새로운 검색을 할수있습니다.
 Persistence - 두 명또는 그보다 많은 사용자가 똑같은 검색을 하면, 똑같은 검색결과를 얻을수있습니다. 
 개인적으로 아쉬운 점이 있다면 MongoDB와 같은 NoSQL을 새로 공부해서 연결하고 싶었지만, 시간이 많이 없어서 제가 그나마 가장 잘알고있는 MySQL로 연결했습니다. 지금 AWS 계정을 없애서 MySQL 에러가 뜰것이지만, 그래도 테스트 하고싶으시면 스키마랑 테이블을 따로 만드시면 작동될것입니다. 그리고, 아마 프로그램을 실행시키다보면 Twitter API Limit Exceeded - 420 Status Code 라는 것이 뜰것인데 이것은 Load Balancer가 있어야 사라지는 문제입니다. 
-데모 영상: https://www.youtube.com/watch?v=shBqxzgzguM
+[데모 영상 보기](https://www.youtube.com/watch?v=shBqxzgzguM)
 
 [6] [Go Lang / 카카오챗봇 / Android / IOS](https://drive.google.com/drive/folders/16B64InkkKJfca28p1NeDFAuiRsssXw4C?usp=sharing) - 이 프로젝트들은 그냥 심심할때 만든거라서 동영상 촬영을 안했습니다. 
 > Go Lang: Go 언어를 상징하는 캐릭터가 재밌게 생겨서 한번 배워보고 싶어서 front-end (vue.js, vuetify, element.ui, axios), back-end (gorilla/mux, mgo/mongodb)를 이용해서 간단한 CRUD web app을 구현했고 pagination 처리까지 했습니다. docker-compose로 작성했기 때문에 별도로 mongodb, vue.js, go lang 설치없이 docker만 설치되어있으면 docker-compose up -d 커맨드를 제 프로젝트 루트 디렉토리에서 실행시키면 작동이 됩니다. 
