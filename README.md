@@ -39,7 +39,7 @@ AWS 신기술인 aws-amplify/cli 이용해서 서비스 개발
 AllPay PG사를 이용한 중국 결제시스템 연동 (알리페이, 위챗페이 연동)
 python web scraping (BeautifulSoup)를 이용한 연관된 화장품 이름, 가격을 한눈에 볼수있게 도와주는 back-office software 개발
 
-# Projects for Portfolio (ORDER BY END_DATE DESC)
+# Projects for Portfolio
 
 [1] PHP (Restful API)
 >Capstone project로 진행한 과제입니다. 저희 팀의 클라이언트가 도자기 공방을 하고 사람들을 가르치는 일을하시는데, 제가 맡은 임무는 Customer Booking Integration으로 (클라이언트의) 고객이 Occasion 이라는 다른 외부 웹사이트 API를 통해서 결제를하고 테이블을 부킹하면 Wordpress로 운영된 저희 고객사이트에 가입이 되어있지않으면 가입을 시키고 Vend라는 매출관리하는 사이트에 고객 정보를 입력하고 주문번호를 입력해서 클라이언트가 한 달에 얼마나 벌었는지 어떤 고객이 제일 많이 소비를 했는지를 알려줍니다.    
