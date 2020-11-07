@@ -68,7 +68,7 @@ Persistence - 두 명또는 그보다 많은 사용자가 똑같은 검색을 �
 개인적으로 아쉬운 점이 있다면 MongoDB와 같은 NoSQL을 새로 공부해서 연결하고 싶었지만, 시간이 많이 없어서 제가 그나마 가장 잘알고있는 MySQL로 연결했습니다. 지금 AWS 계정을 없애서 MySQL 에러가 뜰것이지만, 그래도 테스트 하고싶으시면 스키마랑 테이블을 따로 만드시면 작동될것입니다. 그리고, 아마 프로그램을 실행시키다보면 Twitter API Limit Exceeded - 420 Status Code 라는 것이 뜰것인데 이것은 Load Balancer가 있어야 사라지는 문제입니다. 
 [데모 영상 보기](https://www.youtube.com/watch?v=shBqxzgzguM)
 
-[6] [Go Lang / 카카오챗봇 / Android / IOS](https://drive.google.com/drive/folders/16B64InkkKJfca28p1NeDFAuiRsssXw4C?usp=sharing) - 이 프로젝트들은 그냥 심심할때 만든거라서 동영상 촬영을 안했습니다. 
+[6] [Go Lang / 카카오챗봇 / Android / IOS](https://drive.google.com/drive/folders/16B64InkkKJfca28p1NeDFAuiRsssXw4C?usp=sharing) 
 > Go Lang: Go 언어를 상징하는 캐릭터가 재밌게 생겨서 한번 배워보고 싶어서 front-end (vue.js, vuetify, element.ui, axios), back-end (gorilla/mux, mgo/mongodb)를 이용해서 간단한 CRUD web app을 구현했고 pagination 처리까지 했습니다. docker-compose로 작성했기 때문에 별도로 mongodb, vue.js, go lang 설치없이 docker만 설치되어있으면 docker-compose up -d 커맨드를 제 프로젝트 루트 디렉토리에서 실행시키면 작동이 됩니다. 
 
 
