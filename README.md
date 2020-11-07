@@ -16,7 +16,7 @@ MobX와 Context API를 사용해서 여러 컴포넌트들에서 State를 관리
 보건복지부도 연관되어 있고 기사도 여러개 날 만큼 꽤 큰 이벤트 였습니다.
 4일이라는 짧은 기간안에 플랫폼을 개발해야해서 [1]에서 개발한 프로젝트를 클론받아서 수정해서 배포했습니다.
  
-[3] OHDSI Korea International Symposium (AWS DevOps)
+[3] [OHDSI Korea International Symposium (AWS DevOps)](http://medigatenews.com/news/1958251668)
 >포트폴리오는 없고 뉴스 기사만 있어서 링크를 걸었습니다.
 OHDSI (Observational Health Data Sciences and Informatics)는 국제 의료 정보 협회라고 보시면 되고 이 협회에서는 의료 정보 분석을 쉽게 할 수 있도록 Open Source 분석 도구 웹사이트 (Atlas, Achilles, Athena)를 제공합니다.
 2019년 12월 12일부터 14일간의 행사를 진행했었고 약 한 달반 정도의 기간 동안 준비를 했었습니다. 이 행사에서는 분석 도구를 어떻게 돌리는지 데모를 하고 여러 나라에서 온 참가자들이 직접 한 번씩 분석 도구를 돌려보는 세션들이 있었습니다.
