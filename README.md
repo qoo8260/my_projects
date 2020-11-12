@@ -6,7 +6,7 @@
 
 [1] 연구 중심 병원 플랫폼 개발
 >테크 스택: React.js, Typescript, Vue.js, Node.js, PostgreSQL, DynamoDB
-프로젝트 기간: 2020.01~Present
+프로젝트 기간: 2020.01~2020.12
 Elastic Beanstalk를 이용해서 AWS에서 Rolling with additional batch 옵션으로 deploy 하고 있습니다.
 이 밖에 Cognito(회원 인증 서비스)와 SES(이메일 서비스), S3(웹사이트 호스팅/이미지 저장), Cloudfront(Cache), Route 53(DNS) 등의 서비스들을 사용했습니다.
 프로젝트들을 필터링하거나 정렬할때는 PostgreSQL을 사용했고 프로젝트의 상세내용의 대한 정보는 DynamoDB를 이용해서 보여줍니다.
