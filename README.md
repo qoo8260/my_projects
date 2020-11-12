@@ -1,4 +1,9 @@
 # Projects in the Real World (ORDER BY END_DATE DESC)
+[0] Front-End 모든 프로젝트 (공통)
+> react.js/vue.js를 AWS에서 호스팅 했습니다.
+![](work_experience-Front-End.png)
+
+
 [1] 연구 중심 병원 플랫폼 개발
 >테크 스택: React.js, Typescript, Vue.js, Node.js, PostgreSQL, DynamoDB
 프로젝트 기간: 2020.01~Present
@@ -8,6 +13,7 @@ Serverless package를 이용해서 API Gateway, Lambda를 개발함으로써 서
 MobX와 Context API를 사용해서 여러 컴포넌트들에서 State를 관리하도록 개발했습니다.
 이 서비스는 대중성을 위한 웹사이트가 아닌 협약을 한 병원들만 사용할 수 있으며 현재는 세종 병원과 분당 서울대 병원이 협약을 했습니다. 그렇기 때문에 포트폴리오로 공개하기가 힘든 제약 사항이 있습니다.
 아주대학교 의료 원장님 앞에서 직접 저 본인이 웹어플리케이션 사용 시연을 할 정도로 꽤 스케일이 큰 프로젝트입니다.
+![](work_experience-1.png)
 
 
 
@@ -31,13 +37,15 @@ API 서버는 AWS ECS (Elastic Container Service)에서 호스팅
 Authentication은 MiddleWare에 JWT 토큰을 검증하는 방식
 Real Time Notification (Socket.io) 알림 서비스를 개발해서 새로운 회원이 생길때 실시간으로 어드민에서 확인할 수 있게 만듬
 MongoDB의 스토리지는 EFS (Elastic File System)에 Mounting해서 3개의 가용 영역에서 사용할 수 있게함
- 
+![](work_experience-2.png)
+
 [5] Meiyan Project (화장품 E-Commerce 플랫폼 개발)
 >테크 스택: Vue.js, Node.js, DynamoDB
 프로젝트 기간: 2018.12~2019.04
 AWS 신기술인 aws-amplify/cli 이용해서 서비스 개발
 AllPay PG사를 이용한 중국 결제시스템 연동 (알리페이, 위챗페이 연동)
 python web scraping (BeautifulSoup)를 이용한 연관된 화장품 이름, 가격을 한눈에 볼수있게 도와주는 back-office software 개발
+![](work_experience-3.png)
 
 # Projects for Portfolio
 
